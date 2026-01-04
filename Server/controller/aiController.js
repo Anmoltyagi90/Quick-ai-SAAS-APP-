@@ -11,7 +11,7 @@ import FormData from "form-data";
 // import pdf from "pdf-parse";
 
 const AI = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.GEMINI_API_KEY,
   baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
 });
 
