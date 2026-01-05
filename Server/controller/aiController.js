@@ -264,7 +264,7 @@ export const removeImageBackground = async (req, res) => {
       ],
     });
 
-    // 💾 Save to DB
+    // 💾 Save to D
     const savedImage = await Image.create({
       userId,
       prompt: "Background removed image",
