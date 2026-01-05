@@ -44,7 +44,7 @@ app.use("/api/ai", (req, res, next) => {
 });
 
 // 🔐 Protected AI Routes
-app.use("/api/ai", requireAuth(), aiRoutes); // requireAuth handles Clerk auth
+app.use("/api/ai", requireAuth(), aiRoutes); 
 app.use("/api/user", requireAuth(), userRouter);
 
 // Start Server
